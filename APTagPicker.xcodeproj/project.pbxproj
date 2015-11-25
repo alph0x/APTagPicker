@@ -13,6 +13,11 @@
 		51464E391C05FC6D009D7A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51464E371C05FC6D009D7A92 /* Main.storyboard */; };
 		51464E3B1C05FC6D009D7A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51464E3A1C05FC6D009D7A92 /* Assets.xcassets */; };
 		51464E3E1C05FC6D009D7A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51464E3C1C05FC6D009D7A92 /* LaunchScreen.storyboard */; };
+		51464E481C05FC84009D7A92 /* APTagPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51464E461C05FC84009D7A92 /* APTagPickerViewController.m */; };
+		51464E491C05FC84009D7A92 /* APTagPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51464E471C05FC84009D7A92 /* APTagPickerViewController.xib */; };
+		51464E4D1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51464E4B1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.m */; };
+		51464E4E1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51464E4C1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.xib */; };
+		51464E511C060D39009D7A92 /* KTCenterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 51464E501C060D39009D7A92 /* KTCenterFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,14 @@
 		51464E3A1C05FC6D009D7A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51464E3D1C05FC6D009D7A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51464E3F1C05FC6D009D7A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51464E451C05FC84009D7A92 /* APTagPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTagPickerViewController.h; sourceTree = "<group>"; };
+		51464E461C05FC84009D7A92 /* APTagPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTagPickerViewController.m; sourceTree = "<group>"; };
+		51464E471C05FC84009D7A92 /* APTagPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APTagPickerViewController.xib; sourceTree = "<group>"; };
+		51464E4A1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTagPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		51464E4B1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTagPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		51464E4C1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APTagPickerCollectionViewCell.xib; sourceTree = "<group>"; };
+		51464E4F1C060D39009D7A92 /* KTCenterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTCenterFlowLayout.h; sourceTree = "<group>"; };
+		51464E501C060D39009D7A92 /* KTCenterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTCenterFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,14 @@
 				51464E341C05FC6D009D7A92 /* ViewController.h */,
 				51464E351C05FC6D009D7A92 /* ViewController.m */,
 				51464E371C05FC6D009D7A92 /* Main.storyboard */,
+				51464E4F1C060D39009D7A92 /* KTCenterFlowLayout.h */,
+				51464E501C060D39009D7A92 /* KTCenterFlowLayout.m */,
+				51464E451C05FC84009D7A92 /* APTagPickerViewController.h */,
+				51464E461C05FC84009D7A92 /* APTagPickerViewController.m */,
+				51464E471C05FC84009D7A92 /* APTagPickerViewController.xib */,
+				51464E4A1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.h */,
+				51464E4B1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.m */,
+				51464E4C1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.xib */,
 				51464E3A1C05FC6D009D7A92 /* Assets.xcassets */,
 				51464E3C1C05FC6D009D7A92 /* LaunchScreen.storyboard */,
 				51464E3F1C05FC6D009D7A92 /* Info.plist */,
@@ -136,6 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51464E491C05FC84009D7A92 /* APTagPickerViewController.xib in Resources */,
+				51464E4E1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.xib in Resources */,
 				51464E3E1C05FC6D009D7A92 /* LaunchScreen.storyboard in Resources */,
 				51464E3B1C05FC6D009D7A92 /* Assets.xcassets in Resources */,
 				51464E391C05FC6D009D7A92 /* Main.storyboard in Resources */,
@@ -149,9 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51464E481C05FC84009D7A92 /* APTagPickerViewController.m in Sources */,
 				51464E361C05FC6D009D7A92 /* ViewController.m in Sources */,
+				51464E4D1C05FCDB009D7A92 /* APTagPickerCollectionViewCell.m in Sources */,
 				51464E331C05FC6D009D7A92 /* AppDelegate.m in Sources */,
 				51464E301C05FC6D009D7A92 /* main.m in Sources */,
+				51464E511C060D39009D7A92 /* KTCenterFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

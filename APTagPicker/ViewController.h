@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APTagPickerViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <APTagPickerViewControllerDelegate>
 
-
+@property (strong, nonatomic) IBOutlet UIView *tagPickerContainer;
+@property (strong, nonatomic) APTagPickerViewController *tagPicker;
 @end
 

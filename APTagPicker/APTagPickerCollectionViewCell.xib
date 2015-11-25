@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="tagCell" id="gTV-IL-0wX" customClass="APTagPickerCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="69" height="20"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="69" height="20"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qp5-BW-aWa">
+                        <rect key="frame" x="0.0" y="0.0" width="69" height="20"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="6" maxY="0.0"/>
+                        <state key="normal" title="Tag Name"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="tagButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="TJt-dk-uXe"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstItem="qp5-BW-aWa" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cS7-D3-bV4"/>
+                <constraint firstItem="qp5-BW-aWa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fDW-lQ-1eG"/>
+                <constraint firstAttribute="bottom" secondItem="qp5-BW-aWa" secondAttribute="bottom" id="h9p-rp-cZG"/>
+                <constraint firstAttribute="trailing" secondItem="qp5-BW-aWa" secondAttribute="trailing" id="n7k-Oz-kGG"/>
+                <constraint firstItem="qp5-BW-aWa" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="o6L-BW-tRh"/>
+                <constraint firstItem="qp5-BW-aWa" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="uFq-p6-m3V"/>
+            </constraints>
+            <size key="customSize" width="80" height="31"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="o6L-BW-tRh"/>
+                    <exclude reference="uFq-p6-m3V"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="tagButton" destination="qp5-BW-aWa" id="cbP-Ij-Wfy"/>
+            </connections>
+            <point key="canvasLocation" x="658" y="437.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
